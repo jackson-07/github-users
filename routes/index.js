@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+var express = require('express')
+var router = express.Router()
 
 const token = process.env.GITHUB_TOKEN
 const ROOT_URL = 'https://api.github.com'
@@ -21,4 +21,4 @@ router.get('/', async function (req, res, next) {
 })
 
 
-module.exports = router;
+module.exports = router
